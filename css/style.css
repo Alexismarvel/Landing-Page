@@ -171,6 +171,11 @@ img {
   color: var(--text-primary);
 }
 
+.logo-img {
+  width: 32px;
+  height: 32px;
+}
+
 .logo i {
   color: var(--primary);
   font-size: 1.2rem;
@@ -236,7 +241,8 @@ img {
   align-items: center;
   position: relative;
   padding-top: 70px;
-  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--primary-dark) 100%);
+  background: linear-gradient(135deg, rgba(247, 247, 255, 0.92) 0%, rgba(238, 238, 248, 0.88) 50%, rgba(87, 93, 144, 0.2) 100%),
+              url('../Image/abstract-bg.jpg') center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -359,7 +365,8 @@ img {
 
 /* ===== ABOUT SECTION ===== */
 .about {
-  background: var(--bg-primary);
+  background: linear-gradient(135deg, rgba(247, 247, 255, 0.95), rgba(238, 238, 248, 0.9)),
+              url('../Image/team-collab.jpg') center / cover no-repeat;
 }
 
 .about-grid {
@@ -408,7 +415,8 @@ img {
 
 /* ===== FEATURES SECTION ===== */
 .features {
-  background: var(--bg-secondary);
+  background: linear-gradient(135deg, rgba(247, 247, 255, 0.92), rgba(238, 238, 248, 0.88)),
+              url('../Image/nebula.jpg') center / cover no-repeat;
 }
 
 .features-grid {
@@ -481,13 +489,14 @@ img {
 }
 
 .service-img {
-  height: 160px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 3.5rem;
   background: linear-gradient(135deg, rgba(87, 93, 144, 0.3), rgba(87, 93, 144, 0.06));
   color: var(--primary-light);
+  position: relative;
 }
 
 .service-body {
@@ -522,7 +531,8 @@ img {
 
 /* ===== TESTIMONIALS SECTION ===== */
 .testimonials {
-  background: var(--bg-secondary);
+  background: linear-gradient(135deg, rgba(238, 238, 248, 0.92), rgba(247, 247, 255, 0.88)),
+              url('../Image/galaxies.jpg') center / cover no-repeat;
 }
 
 .testimonials-grid {
@@ -581,7 +591,8 @@ img {
 
 /* ===== PRICING SECTION ===== */
 .pricing {
-  background: var(--bg-primary);
+  background: linear-gradient(135deg, rgba(247, 247, 255, 0.92), rgba(238, 238, 248, 0.85)),
+              url('../Image/rocket-launch.jpg') center / cover no-repeat;
 }
 
 .pricing-grid {
